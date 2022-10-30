@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agepedia</title>
         
-    <link rel="stylesheet" href="css/animacionHamMen.css">
     <link rel="stylesheet" href="css/HeaderStyles.css">
     <link rel="stylesheet" href="css/Body-1Styles.css">
     <link rel="stylesheet" href="css/FooterStyles.css">
@@ -42,7 +41,44 @@
     </header>
     <main>
         <div class="PaginaSecundaria">
-
+            <h1 class="TituloDePagina">¿Quienes somos?</h1>
+            <p>Somos una pequeña comunidad la cual siente mucha pasion por un juego llamado Age of empires, el cual amamos y siempre que podamos poner nuestro granito de arina para 
+                engrndecerlo lo vamos a hacer. Y es por esa misma razon que nos dedicamos a crear este sitio de noticias donde publicaremos los eventos mas importantes de nuestra pequeña comunidad, nuestro mundo del Eish.
+            </p>
+            <p>¡Como diria tatitoh, somos la Ostia!</p>
+            <h1 class="TituloDePagina">Contactanos</h1>
+            <div class="Formulario">
+                <form action="https://formspree.io/f/xlevpvng" method="post">
+                    <label class="OpcionF">Nombre
+                        <input type="text" name="Nombre" id="name" required>
+                    </label>
+                    <br>
+                    <label class="OpcionF">Apellido
+                        <input type="text" name="Apellido" id="Surname" required>
+                    </label>
+                    <br>
+                    <label class="OpcionF"> Sexo
+                        <select name="Sexo" id="sexo" required>
+                            <option value="1">Hombre</option>
+                            <option value="2">Mujer</option>
+                            <option value="3">Otro</option>
+                        </select>
+                    </label>
+                    <br>
+                    <label class="OpcionF">Mail
+                        <input type="text" name="mail" id="mail" required>
+                    </label>
+                    <br>
+                    <label class="OpcionF">
+                        <h3> Dejanos tu comentario</h3>
+                        <textarea name="Opinion" id="Opinion" maxlength="100" placeholder="Mi comentario" required rows="3"></textarea>
+                    </label>
+                    <br>
+                    <label>
+                        <input type="submit" name="submit">
+                    </label>
+                </form>
+            </div>
         </div>
     </main>
     <footer>
