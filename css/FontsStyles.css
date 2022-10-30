@@ -12,6 +12,16 @@ body{
     font-family: Georgia;
 }
 
+.TituloDePagina{
+    font-family: "Papyrus";
+    font-style: oblique;
+    font-size: larger;
+}
+
+.TituloDeArticulo{
+    font-family: "Papyrus";
+}
+
 .logo{
     font-family: "Papyrus";
 }
