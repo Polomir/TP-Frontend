@@ -1,0 +1,111 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+:root{
+    --color-principal: #B09F6E;
+    --color-secundario: #C4B383;
+    --color-terciario: #FFEFC1;
+    --color-cuarto: #FFFFFF;
+
+    --color-hombrePoderoso: #c70000;
+    --color-diosAbsoluto: #195080;
+    --color-burgesia: orange;
+}
+
+.PaginaIntegrantes{
+    padding: 10px;
+    width: 80%;
+    max-width: 1000px;
+    height: 100vh;
+    background-color: var(--color-terciario);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border-left: ridge;
+    border-right: ridge;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.arrow{
+    border: 1px solid black;
+    padding:  0 10px;
+    cursor: pointer;
+    border-radius: 25%;
+    background-color: var(--color-principal);
+}
+
+.scrollPersonas{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.integranteCard{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 50vh;
+    border-radius: 10px;
+    background-color: var(--color-cuarto);
+    border: 1px solid black;
+}
+
+h2{
+    padding: 2vh;
+    border-bottom: 1px ridge black;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: var(--color-secundario);
+}
+
+.perfil{
+    margin: 10px;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.DiosAbsoluto{
+    color: var(--color-diosAbsoluto);
+}
+
+.BurguesiaInsipida{
+    color: var(--color-burgesia);
+}
+
+.HombrePoderoso{
+    color: var(--color-hombrePoderoso);
+}
+
+.listaIntegrantes{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin: 10px;
+    width: 70%;
+    max-width: 1000px;
+    background-color: var(--color-terciario);
+    list-style-type: none;
+    border-radius: 10px;
+}
+
+.IntegranteLi{
+    padding: 5px;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}

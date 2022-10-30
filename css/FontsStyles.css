@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: "Papyrus";
+    src: url(../fonts/papyrus.ttf);
+}
+@font-face {
+    font-family: "Vineritic";
+    src: url(../fonts/vineritc.ttf);
+}
+
+body{
+    font-family: Georgia;
+}
+
+.logo{
+    font-family: "Papyrus";
+}
